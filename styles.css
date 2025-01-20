@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hour, #minute, #second, #ampm {
+    font-variant-numeric: tabular-nums;
+    transition: all 0s ease-in-out;
+}
